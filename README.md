@@ -47,48 +47,64 @@ With that we start with the base and the feet. For my build, I will add some hot
 With the feet in, you'll want to grab your three servos and place them on the mounts as such:
 
 (servo pic)
+<img width="796" height="734" alt="image" src="" />
+
 
 Attach them using M3x10 bolt with a nut on the other end to clamp it in place. Also ensure you have attached the servo horn using the hardware given in the kit. Alternatively you can use an M3x6 bolt to attach the horn to the servo.
 
 Then grab your six standoffs. Follow the same steps you did for the feet (except the hot glue grip), and attach them around the circumference using M3x8 bolts.
 
 (standoff pic)
+<img width="796" height="734" alt="image" src="" />
+
 
 Now with your three bottom arms, line up the two holes on the bottom with the two on the servo horn. Using an M3x6 bolt, attach that too to the horn. You won't need a nut since the servo horn is threaded. 
 
 (bottom arm pic)
+<img width="796" height="734" alt="image" src="" />
+
 
 Grab the three top arms now, and attach them to the bottom arms using the M4 shoulder bolt. If you want you can use a standard M4, but I use a tie rod for my build. Secure it on the other side using a lock-nut. Alternatively you could use two nuts twisted toghther tightly with some pliers.
 
 (top arm pic)
+<img width="796" height="734" alt="image" src="" />
+
 
 Get your tie rods, and attach the to the top of each arm using an M3x6 or M3x8 Bolt.
 
 (tierod pic)
+<img width="796" height="734" alt="image" src="" />
+
 
 You can now attach the electronics shield part to the standoffs. Just use the same M3x8 bolts and attach the shield to the six standoffs.
 
 (shield pic)
+<img width="796" height="734" alt="image" src="" />
 
-For the next part, my assembly doesn't have the correct compoenent in it since I don't want to redo it since I'm pretty sure I would screw up the joints, and I really don't want to do that again, so you're gonna have to listen carefully!
+
+For the next part, my assembly doesn't have the correct compoenent in it since I don't want to redo it since I'm pretty sure I would screw up the joints, and I really don't want to do that again, so read carefully!
 
 So the mount you printed should look something like this:
 
 (mountpic)
+<img width="796" height="734" alt="image" src="" />
+
 
 You'll want to grab the M3x20mm bolt, and put it through one of the holes, then attach a nut. Proceed to screw the bolt in, and thread it through one of the tie rods. When it is on the other side of the tie rod, you'll want to add another nut. Then thread it through the other hole of the mount, and out the other end. At this side, you can use another lock nut to attach it securely. Repeat this for the three mounts. Ensure that the extended bit is pointing inwards and not outwards.
 
-Ok now we can start assembling the electronics. Place the Pi Zero 2 W on the corresponding standoffs, and do the same with the PCA9685. No bolts required. Then place the camera module in its little enclosure. Use the attach the CSI cable to the camera, and the other end to the interface on the Pi Zero 2 (note: you'll probably need another cable specifically for the Pi Zero, one with a thinner end for the Pi Zero's CSI slot, as the stock cable with the camera is intended for the full size Pis). With the three main compoenents in, you can start wiring up the PCA9685 using this diagram:
+Ok now we can start assembling the electronics. Place the Pi Zero 2 W on the corresponding standoffs, and do the same with the PCA9685. No bolts required. Then place the camera module in its little enclosure. Use the attach the CSI cable to the camera, and the other end to the interface on the Pi Zero 2 (note: you'll probably need another cable specifically for the Pi Zero, one with a thinner end for the Pi Zero's CSI slot, as the stock cable with the camera is intended for the full size Pis). With the three main compoenents in, you can start wiring up the PCA9685 using this diagram (in the hardware directory):
 
-(wiring diagram)
 
-You can then attach the three servos onto channels 0, 1 and 2. 
+<img width="796" height="734" alt="image" src="https://github.com/tecknet-gg/BallBalancer/blob/master/hardware/wiring%20diagram.png" />
+You can then attach the three servos to channels 0, 1 and 2 like in the diagram.
 
 Finally for power, get a barrel jack to screw terminal mount, and just hot glue it somewhere onto the bottom. There's not really any mounting pounts on the screw terminal, so and I didn't really want to model in a recess specifically for that. Attach the two 18AWG wires to the screw terminals, and route it up to the PCA9685, and screw the wires into the corresponding screw terminals on the PCA9685. 
 
 And now we can get onto mounting the platform. Grab your clear acrylic disc and the three mount clip parts. Its not on the 3D assembly, but you'll want first put some M3x6 screws through the main mount, then place the platoform in the recess, and get thread the mount clip onto the bolts, then tighten the screws. You shouldn't need a nut here, but if you end up using a longer bolt, you can. Though the piece is threaded so you shouldn't need to.
 
 (mount and mount clip picutres)
+<img width="796" height="734" alt="image" src="" />
+
 
 
 
