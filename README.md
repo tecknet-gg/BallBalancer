@@ -8,6 +8,11 @@ The hardware for the most part is done, and the .step file can be found in the h
 
 <img width="796" height="734" alt="image" src="https://github.com/user-attachments/assets/40b6c01d-f442-48ae-8e6a-e566a7ac4e0d" />
 
+With the custom PCB:
+
+<img width="718" height="670" alt="image" src="https://github.com/user-attachments/assets/cd2735b8-0ac9-483a-8a33-02f9bc2c490b" />
+
+
 Here's the BOM:
 
 | Component             | Function             | Quantity | Price (unit*qty) | Source                                                                                                                                                                     |
@@ -24,6 +29,7 @@ Here's the BOM:
 | PLA                   | Printing Material    | 1        | £13.99           | https://www.amazon.co.uk/dp/B0CD79M1NV?ref=ppx_yo2ov_dt_b_fed_asin_title                                                                                                   |
 | 20mm Acrylic Disc     | Platform Disc        | 1        | £3.49            | https://www.amazon.co.uk/dp/B0DJVB82TY/?coliid=I2NBRJSN1CBSC1&colid=3NYE67N1E05KC&psc=1                                                                                    |
 | 18AWG Wire            | Wire                 | 2        | £2.90            | https://www.amazon.co.uk/dp/B0CZRGH4CT/?coliid=I36BQ0C4MRSHG2&colid=3NYE67N1E05KC&psc=1                                                                                    |
+| PCB             | PCB                 | 5        | £9            | JLCPCB                                                                             |
 
 ## Assembly 
 
@@ -101,6 +107,8 @@ If you want to add the IMU mount like I will, you can print out the IMU Mount v4
 
 <img width="411" height="264" alt="image" src="https://github.com/user-attachments/assets/a725c66c-b3e7-47ee-85cd-adfd04bc9aca" />
 
+
+If you happen to be using the PCB, get yourself the board, solder on the DC Barrel Jack, the Pi Zero 2 W and the PCA9685. Then print out the PCB shield instead of the other shield, and mount the PCB on, and voila. Wire up the camera the same. You can wire the IMU into the I2C extender of the PCA9685 in both cases of using the PCB and not.
 
 
 
