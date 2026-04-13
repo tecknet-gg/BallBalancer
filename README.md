@@ -33,6 +33,10 @@ If I do get time, I will eventually post this on Instructables!
 
 <img width="1080" height="1920" alt="image" src="https://github.com/user-attachments/assets/5ca1124a-9eb0-4f45-968c-a6496726ac98" />
 
+Still some tuning needed, but the hardware totally works, and it even balances it fully sometimes :]
+
+https://www.youtube.com/shorts/TCPpPW1j67o
+
 
 
 
