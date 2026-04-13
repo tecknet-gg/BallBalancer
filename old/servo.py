@@ -1,6 +1,3 @@
-import time
-import json
-
 class Servo:
     def __init__(self, channel, offset, pwm):
         self.channel = channel

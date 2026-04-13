@@ -1,0 +1,10 @@
+{
+  "kx": [1.0, 0.0, -0.9],
+  "ky": [-1.0, 0.0, -0.9],
+  "dt": 0.04,
+  "servo1offset": 9.5,
+  "servo2offset": -2.5,
+  "servo3offset": 3.5,
+  "xsign": 1,
+  "ysign": -1
+}

@@ -1,8 +1,6 @@
 import time
 import math
 import mpu6050
-
-
 class IMU:
     def __init__(self):
         self.imu = mpu6050.mpu6050(0x68)
