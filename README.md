@@ -13,10 +13,7 @@ A custom 3RRS parallel manipulator that leverages CV to locate and mainpulate a 
 
 ## Building
 
-If you're interested in building the same, please point yourself towards the BUILD.md file, with comprehensive build instructions.
-
-If you've built it already, and would like to run my firmware, please point yourself towards the FIRMWARE.md file. It serves mainly as a starting point into using my firmware, everything is not entirely documented, but my code is relatively verbose in case you need to tweak things.
-
+Build instructions can be found in the BUILD.md file, and instructions for running my firmware can be found in the FIRMWARE.md file.
 If I do get time, I will eventually post this on Instructables!
 
 ## Pictures
